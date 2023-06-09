@@ -1,0 +1,111 @@
+.s20 {
+    width: 20px;
+    height: 20px;
+}
+
+.s16 {
+    width: 16px;
+    height: 16px;
+}
+
+.s14 {
+    width: 14px;
+    height: 14px;
+}
+
+.s12 {
+    width: 12px;
+    height: 12px;
+}
+
+.s10 {
+    width: 10px;
+    height: 10px;
+}
+
+.iconWrapper svg {
+    width: 100%;
+    height: 100%;
+}
+
+@media all and (min-width: 320px) and (max-width: 1023px) {
+    .m20 {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .m16 {
+        width: 16px;
+        height: 16px;
+    }
+    
+    .m14 {
+        width: 14px;
+        height: 14px;
+    }
+    
+    .m12 {
+        width: 12px;
+        height: 12px;
+    }
+    
+    .m10 {
+        width: 10px;
+        height: 10px;
+    }
+}
+
+
+@media all and (min-width: 1024px) and (max-width: 1539px) {
+    .t20 {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .t16 {
+        width: 16px;
+        height: 16px;
+    }
+    
+    .t14 {
+        width: 14px;
+        height: 14px;
+    }
+    
+    .t12 {
+        width: 12px;
+        height: 12px;
+    }
+    
+    .t10 {
+        width: 10px;
+        height: 10px;
+    }
+}
+
+@media all and (min-width: 1540px) {
+    .d20 {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .d16 {
+        width: 16px;
+        height: 16px;
+    }
+    
+    .d14 {
+        width: 14px;
+        height: 14px;
+    }
+    
+    .d12 {
+        width: 12px;
+        height: 12px;
+    }
+    
+    .d10 {
+        width: 10px;
+        height: 10px;
+    }
+}

@@ -1,0 +1,48 @@
+body {
+  position: relative;
+}
+
+.modal {
+  position: fixed;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  background-color: var(--white);
+  padding: 50px 60px;
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.15);
+  border-radius: 7px;
+  overflow-y: auto;
+  max-height: 80vh;
+  max-width: 80%;
+}
+
+.previewImg {
+  width: 100%;
+}
+
+.divider {
+  height: 1px;
+  width: 100%;
+  background-color: var(--greyEC);
+  margin-bottom: 59px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  background-color: var(--orange);
+  color: var(--white);
+  padding: 17px 50px;
+  opacity: 0.8;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.button:hover {
+  opacity: 1;
+}

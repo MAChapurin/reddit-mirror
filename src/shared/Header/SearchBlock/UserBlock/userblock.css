@@ -1,0 +1,41 @@
+.userBox {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    order: 4;
+}
+
+.userBox:hover span {
+    color: var(--orange);
+    transition:  color 0.3s ease-in-out;
+}
+
+.userBox:hover .avatarBox {
+    box-shadow: 0 0 0 1px var(--orange);
+}
+
+.avatarBox {
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+    border-radius: 100%;
+    box-shadow: none;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.avatarImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.username {
+    display: none;
+}
+
+@media all and (min-width: 1024px) {
+    .username {
+        display: flex;
+    }
+}

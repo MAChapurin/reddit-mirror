@@ -1,0 +1,8 @@
+@media all and (min-width: 1024px) {
+    .content {
+        background-color: var(--white);
+        border-radius: 7px 7px 0 0;
+        overflow-y: auto;
+        /* max-height: 100vh; */
+    }
+}

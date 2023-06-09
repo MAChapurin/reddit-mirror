@@ -1,0 +1,42 @@
+/* @import '../../../../../main.module.css'; */
+.menuItemsList {
+  padding: 0 20px;
+}
+
+.listItem {
+  padding: 12px 0;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.menuItem {
+  padding: 12px 0;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.menuItem > svg + span {
+  margin-left: 7px;
+}
+
+.divider {
+  height: 1px;
+  width: 100%;
+  background-color: var(--greyEC);
+}
+
+@media all and (min-width: 320px) and (max-width: 1023px) {
+  .menuItem:nth-of-type(1),
+  .menuItem:nth-of-type(2),
+  .menuItem:nth-of-type(4) {
+    display: none;
+  }
+
+  .divider:not(:last-of-type) {
+    display: none;
+  }
+}
+
+

@@ -1,0 +1,33 @@
+.commentsButton {
+  display: flex;
+  align-items: normal;
+}
+.commentsButton * {
+  color: var(--greyC4);
+}
+
+.commentsNumber {
+  padding: 0 0 0 6px;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+/* .commentsText {
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--grey99);
+} */
+
+@media all and (min-width: 1024px) {
+  .commentsButton {
+    display: none;
+  }
+
+  li > .commentsButton {
+    display: inline;
+  }
+  li > .commentsNumber {
+    display: none;
+  }
+
+}
